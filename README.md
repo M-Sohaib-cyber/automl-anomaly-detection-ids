@@ -33,8 +33,8 @@ This project presents a fully automated machine learning pipeline for detecting 
 
 ## Example Results
 
-![ROC Curve](images/roc_comparison.png)
-![Confusion Matrix](images/confusion_matrix_unsw.png)
+![ROC Curve](images/roc_unsw_comparison.png)
+![Confusion Matrix](images/confusion_unsw_baseline.png)
 
 ## Note
 Datasets are not included due to size and licensing.
