@@ -35,6 +35,7 @@ This project presents a fully automated machine learning pipeline for detecting 
 
 ![ROC Curve](images/roc_unsw_comparison.png)
 ![Confusion Matrix](images/confusion_unsw_baseline.png)
+![SHAP Importance](images/shap_importance_h2o.png)
 
 ## Note
 Datasets are not included due to size and licensing.
