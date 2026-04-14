@@ -1,0 +1,15 @@
+{
+  "data": {
+    "dur": 0.1,
+    "sbytes": 300,
+    "dbytes": 120,
+    "rate": 10,
+    "sttl": 254,
+    "dttl": 252,
+    "sload": 5.2,
+    "dload": 2.1,
+    "proto": "tcp",
+    "service": "http",
+    "state": "FIN"
+  }
+}
