@@ -30,3 +30,9 @@ This project presents a feature-centric AutoML framework for anomaly detection i
 
 ## Note
 Datasets are not included due to size and licensing considerations.
+
+
+## Example Output
+
+![ROC Curve](images/roc_unsw_comparison.png)
+
