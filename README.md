@@ -53,5 +53,16 @@ This project presents a fully automated machine learning pipeline for detecting 
 2. Open notebooks in Jupyter
 3. Run `01_AutoML_Pipeline.ipynb` to execute the full pipeline
 
-## Note
-Datasets are not included due to size and licensing restrictions.
+## Dataset
+
+A small test dataset is included in the `data/` folder for demonstration purposes.
+
+For full datasets, use the official sources:
+
+- UNSW-NB15 Dataset: https://research.unsw.edu.au/projects/unsw-nb15-dataset  
+- NSL-KDD Dataset: https://www.unb.ca/cic/datasets/nsl.html  
+
+### Notes
+- The model is primarily trained and optimised on UNSW-NB15  
+- The system expects raw UNSW-NB15-style input features  
+ 
