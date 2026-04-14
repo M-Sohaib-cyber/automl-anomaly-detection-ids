@@ -22,7 +22,7 @@ This folder contains the deployed AutoML-based anomaly detection system, includi
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 ## 🚀Running the Application 
 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```bash
 cd backend
 python -m uvicorn main:app --host 127.0.0.1 --port 8000 --reload
-
+```
 Then open manually in browser:
 
 http://127.0.0.1:8000/docs
@@ -43,7 +43,7 @@ Open a new terminal:
 ```bash
 cd frontend
 streamlit run streamlit_app.py
-
+```
 The UI will open automatically in your browser.
 
 ---
@@ -52,11 +52,11 @@ The UI will open automatically in your browser.
 
 The model expects raw UNSW-NB15 network features (before preprocessing).
 
-✅ Use:
+### ✅ Use:
 Raw UNSW-NB15 dataset (test set recommended)
 CSV format
 All original feature columns
-❌ Do NOT use:
+### ❌ Do NOT use:
 Preprocessed data (scaled / encoded)
 PCA / Autoencoder / VAE outputs
 Selected feature subsets
@@ -65,6 +65,7 @@ Files containing:
 label
 attack_cat
 id
+
 ## 🧪 Example Workflow
 Load a small CSV file (1–10 rows) from UNSW-NB15
 Upload via Streamlit UI
@@ -82,19 +83,21 @@ pred_label (0 = normal, 1 = attack)
 Error:
 ```bash
 ModuleNotFoundError: No module named 'joblib'
-
+```
 Fix:
 ```bash
 pip install -r requirements.txt
+```
 ### 2. Backend not starting
 
 If running:
 ```bash
 python main.py
-
+```
 does nothing → use:
 ```bash
 python -m uvicorn main:app --host 127.0.0.1 --port 8000 --reload
+```
 ### 3. Image / UI loads but no predictions
 
 Check:
@@ -125,6 +128,7 @@ InconsistentVersionWarning
 Fix (optional but recommended):
 ```bash
 pip install scikit-learn==1.7.2
+```
 
 ### 6. Dataset not working
 
