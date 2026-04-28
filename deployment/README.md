@@ -42,7 +42,7 @@ Open a new terminal:
 
 ```bash
 cd frontend
-streamlit run streamlit_app.py
+python -m streamlit run streamlit_app.py
 ```
 The UI will open automatically in your browser.
 
