@@ -1,0 +1,8 @@
+Anomaly Detection in Network Traffic Using Advanced Machine Learning Techniques
+￼
+
+https://github.com/khairulislam/Anomaly-Detection-on-UNSW-NB15
+
+https://arxiv.org/html/2509.23621v1
+
+https://github.com/harshilpatel1799/Iot-Cyber-Security-with-Machine-Learning-Research-Project/blob/master/Model%20Inspection%20of%20UNSW-NB%2015%20Dataset%20Notebook%20-%20Attack%20Type%20Classification%20.ipynb
